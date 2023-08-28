@@ -1,0 +1,49 @@
+
+.row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+  }
+
+
+.score-section {
+    display: flex;
+}
+
+.grid {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    border: 2px solid blueviolet;
+    text-align: center;
+    padding: 5px;
+  }
+
+.grid:first-child {
+    margin-right: 20px;
+} 
+
+.result-section{
+    text-align: center;
+    color: green;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.success-image{
+    visibility: hidden;
+}
+
+.failure-image{
+    visibility:hidden;
+}
+
+#image-section{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}

@@ -4,9 +4,65 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TOP-scissors-paper-stone</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <script src="script.js"></script>
+    
+    <div class = "header-section">
+        <h1> Welcome to the Scissors, Paper & Stone Game</h1>
+    </div>
+
+    <div class = "selection-menu">
+        <p> Choose an item below to get started </p>
+        <div class = "row">
+            <button type="button" class = "column">
+                <img src = "assets/scissors.png" alt = "scissors" value = "scissors" style="width:50%">
+            </button>
+            <button type="button" class = "column">
+                <img src = "assets/paper.png" alt = "paper" style="width:50%">
+            </button>
+            <button type="button" class = "column">
+                <img src = "assets/stone.png" alt = "stone" style="width:50%">
+            </button>
+        </div>
+    </div>
+
+    <div class = "play-section">
+        <h2 id="announcement"></h2>
+        <div class = "play-section player"></div> 
+        <div class = "play-section computer"></div>
+        <p class="result"></p>
+    </div>
+
+    <div class = "score-section">
+        <div class = "grid">
+            <h3>Player Score</h3>
+            <div id = "score-player">0</div> 
+        </div>
+        <div class = "grid">
+            <h3>Computer Score</h3>
+            <div id = "score-computer">0</div> 
+        </div>
+    </div>
+
+    <div class = "result-section">
+        <h2 id = "result"> </h2>
+    </div>
+
+    <div id = "image-section">
+
+    </div>
+  <!--
+    <div class = "failure-image">
+        <img src="assets/failure.png">
+    </div>
+    
+
+    <div class = "success-image">
+        <img src="assets/success.png">
+    </div>
+-->
     
 </body>
 </html>
